@@ -18,7 +18,7 @@
 
 }
 
-
+/*  
 @media screen and (max-width: 320px) {
 
 
@@ -106,8 +106,8 @@
     }
 
 }
-
-
+*/
+/*  
 @media screen and (max-width: 390px) {
 
 
@@ -115,6 +115,7 @@
             display: flex;
             margin: 0;
             padding: 0;
+            
             
         }    
         .navbar {
@@ -143,7 +144,6 @@
             width: 100%;  
         }
         
-    
         .sobre-mim h1{
             font-size: 20px;
             font-weight: 400px;
@@ -195,41 +195,54 @@
         }
 
 }
-
+*/
 
 @media screen and (max-width: 765px) {
 
 
     header {
-        display: flex;
         margin: 0;
-        padding: 0;
-        
+        padding: 0;           
     }    
+
     .navbar {
-        gap: 90px;
-        padding: 0px 10px; 
-        
+        padding: 10px 20px 0px 15px; 
+          
     }
 
+    .navbar .logo h1 {
+        font-size: 25px;
+        
+    }
 
     .dropdown_menu.open {
         position: absolute;
         top: 80px;
         right: 0.5rem;
         left: 0.5rem;
+        
     }
 
     .dropdown_menu.open {
         height: 290px;
     }
 
-    .banner {
-        display: flex;
+
+    main {
+        margin-top: 55px;
+     
     }
+
+    .banner {
+        display: flex; 
+    }
+        
+        
+        
 
     .banner img {
         width: 100%;  
+       
     }
     
 
