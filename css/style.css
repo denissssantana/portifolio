@@ -6,10 +6,14 @@
     box-sizing: border-box;
 }
 
+html {  
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #ffff;
-    background-color: #333;;
+    background-color: #333;
 }
 
 .container {
@@ -258,7 +262,7 @@ main {
     border: 2px solid #804E33;
     border-radius: 15px;
     color: #ffff;
-    background-color: blueviolet;
+    
     
 }
 
@@ -317,19 +321,18 @@ main {
 /*Rodapé*/
 
 footer {
-    width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 20px 20px 20px 20px;  
 }
 
 .meus-contatos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;    
+    flex-direction: column;
 }
-    
+
+   
 .meus-contatos-texto h1{
     display: flex;
     font-size: 30px;
@@ -337,7 +340,37 @@ footer {
     margin: 10px 30px 10px 30px;
     color: #ffff;
     margin-top: 120px;
+   
 }
+
+
+.meus-contatos-topo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    
+    
+}
+
+.meus-contatos-topo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 60px;
+}
+
+.meus-contatos-topo a img{
+    height: 30px; 
+}
+
+.meus-contatos-topo a h1{
+    font-size: 10px;
+    font-weight: 400px;
+    padding-top: 5px;
+    color: #ffff;
+}
+
 
 .meus-contatos-botao img{
     display: flex;
