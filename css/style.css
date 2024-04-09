@@ -45,10 +45,10 @@ a:hover {
 header {
     padding: 0.5rem 3rem;
     width: 100%;
-    height: auto;
+    height: 4.7rem;
     position:fixed;
     top: 0;
-    background-color:#333;
+    background-color:#0c0c0c;
 }
 
 .navbar {
@@ -151,7 +151,8 @@ main {
 
 .sobre {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+       
 }
 
 .sobre-mim h1{
@@ -224,18 +225,7 @@ main {
     margin: 70px 30px 10px 30px;
     margin-top: 120px;
     
-}
-
-.meus-projetos-texto li a{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    font-size: 30px;
-    font-weight: 400px;
-    color: #ffff;
-    text-decoration: none;
-    list-style: none;
-
+    
 }
 
 .meus-projetos-secao {
@@ -250,6 +240,7 @@ main {
     border: 2px solid #804E33;
     border-radius: 30px;
     margin-bottom: 10px;
+   
 }
 
 .meus-projetos-card {
@@ -261,13 +252,20 @@ main {
     width: 350px;
     border: 2px solid #804E33;
     border-radius: 15px;
-    color: #ffff;
-    
-    
+    color: #ffff; 
+}
+
+.meus-projetos-card-texto { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+   
 }
 
 .meus-projetos-card-texto h2 { 
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -279,15 +277,6 @@ main {
     border: 2px solid #804E33;
     border-radius: 15px;
     margin-bottom: 10px;
-    
-}
-
-.meus-projetos-card-texto { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    padding: 5px; 
 }
 
 .meus-projetos-card-texto p {
@@ -340,7 +329,6 @@ footer {
     margin: 10px 30px 10px 30px;
     color: #ffff;
     margin-top: 120px;
-   
 }
 
 
@@ -371,12 +359,6 @@ footer {
     color: #ffff;
 }
 
-
-.meus-contatos-botao img{
-    display: flex;
-    height: 50px;
-    margin: 0px 100px;
-}
 
 .meus-contatos-card {
     display: flex;
